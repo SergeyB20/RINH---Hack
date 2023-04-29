@@ -9,10 +9,10 @@ import openai, fitz
 import networkx as nx
 import matplotlib.pyplot as plt
 
-
+#при неисправности обратить внимание///ВНИМАНИЕ: ЕСЛИ ПРОГРАММА ВЫДАЕТ ОШИБКУ ТО СКОРЕЕ ВСЕГО УМЕР ТОКЕН///
 
 TOKEN = '6096486458:AAGMUDsTrCCb9bV3kks2qJRfq1od9vbNFG4' #BOTFATHER ТОКЕН
-openai.api_key = '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' #OPENAI ТОКЕН
+openai.api_key = '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' #OPENAI ТОКЕН ///ВНИМАНИЕ: ЕСЛИ
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
