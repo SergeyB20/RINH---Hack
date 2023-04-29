@@ -120,6 +120,7 @@ async def adc_function(message: types.Message, state: FSMContext):
         os.remove(f'{user_id}.png')
         os.remove(f'{user_id}.py')
         os.remove('graf.txt')
+        os.remove(f'{user_id}.txt')
 
 
 
